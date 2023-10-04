@@ -6,6 +6,7 @@ public class StudentList {
 	public static void main(String[] args) {
 
 		// Check arguments
+		//testing merge to another step
 		if (args[0].equals("a")) {
 
 			System.out.println("Loading data ...");
