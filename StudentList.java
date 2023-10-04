@@ -5,7 +5,7 @@ import java.util.*;
 public class StudentList {
 	public static void main(String[] args) {
 
-		//step 2
+		//step 2 - abar aschi
 		if (args == null || args[0].length() != 1) {
 			System.out.println("Please provide a, r, ?, +, or c argument");
 			return;
