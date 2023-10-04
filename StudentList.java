@@ -5,6 +5,12 @@ import java.util.*;
 public class StudentList {
 	public static void main(String[] args) {
 
+		//step 2
+		if (args == null || args[0].length() != 1) {
+			System.out.println("Please provide a, r, ?, +, or c argument");
+			return;
+		}
+
 		// Check arguments
 		//testing merge to another step
 		if (args[0].equals("a")) {
